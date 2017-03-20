@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Gabriele Abbati</title>
- <link href="http://www.robots.ox.ac.uk/atom.xml" rel="self"/>
- <link href="http://www.robots.ox.ac.uk/"/>
- <updated>2017-03-20T14:33:07+00:00</updated>
- <id>http://www.robots.ox.ac.uk</id>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2017-03-20T14:58:59+00:00</updated>
+ <id>http://localhost:4000</id>
  <author>
    <name>Gabriele Abbati</name>
    <email></email>

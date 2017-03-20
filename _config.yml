@@ -34,5 +34,5 @@ paginate_path: "page:num"
 # Custom vars
 version:          1.0.0
 
-#github:
-    #  repo:           https://github.com/gabb7
+github:
+      repo:           https://github.com/gabb7/robots_gabb
