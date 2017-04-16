@@ -4,10 +4,10 @@ layout: page
 ---
 
 <!-- ### Conference
-{% bibliography --file conference %}
+{% bibliography --file conference %} -->
 
 ### Journal
-{% bibliography --file journal %} -->
+{% bibliography --file journal %}
 
 ### Preprints
 {% bibliography --file preprints %}
