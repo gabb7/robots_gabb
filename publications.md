@@ -12,5 +12,8 @@ layout: page
 <!-- ### Preprints
 {% bibliography --file preprints %} -->
 
+### Talks
+{% bibliography --file talks %}
+
 ### Abstracts
 {% bibliography --file abstract %}

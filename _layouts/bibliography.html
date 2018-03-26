@@ -13,8 +13,13 @@
     {% if entry.url %}
     <li><a class="bib-materials" href="{{entry.url}}">Pdf</a></li>
     {% endif %}
+
     {% if entry.poster %}
     <li><a class="bib-materials" href="{{entry.poster}}">Poster</a></li>
+    {% endif %}
+
+    {% if entry.slides %}
+    <li><a class="bib-materials" href="{{entry.slides}}">Slides</a></li>
     {% endif %}
 
   </ul>
