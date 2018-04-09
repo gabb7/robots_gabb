@@ -6,11 +6,11 @@ layout: page
 ### Conference
 {% bibliography --file conference %}
 
+### Preprints
+{% bibliography --file preprints %}
+
 ### Journal
 {% bibliography --file journal %}
-
-<!-- ### Preprints
-{% bibliography --file preprints %} -->
 
 ### Talks
 {% bibliography --file talks %}
