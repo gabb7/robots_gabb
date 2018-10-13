@@ -31,10 +31,16 @@
  * Update the foundational and global aspects of the page.
  */
 
+@font-face {
+  font-family: "myOptima";
+  src: url("../fonts/optima-webfont.woff");
+}
 
 html {
-  font-family: "Optima", Helvetica, Arial, sans-serif;
+  font-family: "myOptima", Helvetica, Arial, sans-serif;
 }
+
+
 @media (min-width: 48em) {
   html {
     font-size: 16px;
@@ -82,7 +88,7 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Optima", serif;
+  font-family: "myOptima", serif;
   font-size: 3rem;
 }
 
