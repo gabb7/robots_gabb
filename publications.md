@@ -8,6 +8,9 @@ layout: page
 
 ### Preprints
 {% bibliography --file preprints %}
+<p>
+    * the authors contributed equally
+</p>
 
 ### Journal
 {% bibliography --file journal %}
