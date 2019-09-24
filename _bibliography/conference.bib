@@ -1,7 +1,16 @@
+@article{locatello2019fairness,
+  title={On the Fairness of Disentangled Representations},
+  author={Locatello, Francesco and Abbati, Gabriele and Rainforth, Tom and Bauer, Stefan and Sch{\"o}lkopf, Bernhard and Bachem, Olivier},
+  booktitle={Advances in Neural Information Processing Systems (Accepted)},
+  year={2019},
+  url_pdf={https://arxiv.org/pdf/1905.13662.pdf},
+  abstract={Recently there has been a significant interest in learning disentangled representations, as they promise increased interpretability, generalization to unseen scenarios and faster learning on downstream tasks. In this paper, we investigate the usefulness of different notions of disentanglement for improving the fairness of downstream prediction tasks based on representations. We consider the setting where the goal is to predict a target variable based on the learned representation of high-dimensional observations (such as images) that depend on both the target variable and an unobserved sensitive variable. We show that in this setting both the optimal and empirical predictions can be unfair, even if the target variable and the sensitive variable are independent. Analyzing more than 12600 trained representations of state-of-the-art disentangled models, we observe that various disentanglement scores are consistently correlated with increased fairness, suggesting that disentanglement may be a useful property to encourage fairness when sensitive variables are not observed.}
+}
+
 @InProceedings{pmlr-v97-abbati19a,
   title = 	 {{AR}e{S} and {M}a{RS} Adversarial and {MMD}-Minimizing Regression for {SDE}s},
   author = 	 {Abbati*, Gabriele and Wenk*, Philippe and Osborne, Michael A. and Krause, Andreas and Sch{\"o}lkopf, Bernhard and Bauer, Stefan},
-  booktitle = 	 {Proceedings of the 36th International Conference on Machine Learning},
+  booktitle =   {Proceedings of the 36th International Conference on Machine Learning},
   pages = 	 {1--10},
   year = 	 {2019},
   editor = 	 {Chaudhuri, Kamalika and Salakhutdinov, Ruslan},
@@ -11,7 +20,6 @@
   month = 	 {09--15 Jun},
   publisher = 	 {PMLR},
   url_pdf = 	 {http://proceedings.mlr.press/v97/abbati19a/abbati19a.pdf},
-  url = 	 {http://proceedings.mlr.press/v97/abbati19a.html},
   poster = {http://www.robots.ox.ac.uk/%7Egabb/assets/posters/aresmars_icml2019.pdf},
   slides = {http://www.robots.ox.ac.uk/%7Egabb/assets/slides/icml2019_oral.pdf},
   abstract = 	 {Stochastic differential equations are an important modeling class in many disciplines. Consequently, there exist many methods relying on various discretization and numerical integration schemes. In this paper, we propose a novel, probabilistic model for estimating the drift and diffusion given noisy observations of the underlying stochastic system. Using state-of-the-art adversarial and moment matching inference techniques, we avoid the discretization schemes of classical approaches. This leads to significant improvements in parameter accuracy and robustness given random initial guesses. On four established benchmark systems, we compare the performance of our algorithms to state-of-the-art solutions based on extended Kalman filtering and Gaussian processes.}
